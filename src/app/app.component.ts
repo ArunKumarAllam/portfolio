@@ -4,7 +4,8 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  standalone: true
 })
 export class AppComponent implements OnInit {
   title = 'my-portfolio';
